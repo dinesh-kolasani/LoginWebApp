@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Education Details</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar"> 
+			<nav>
+    			<ul>
+        			<li><a href="Dashboard.jsp">Dashboard</a></li>
+					<li><a href="Address.html">Address</a></li>
+					<li><a href="Education.html">Education</a></li>
+					<li><a href="Family.html">Family Details </a></li>
+					<li><a href="Login.html">Logout</a></li>
+    			</ul>
+			</nav>
+        </div>
+        <div class="main-content">
+        	<form action="EducationServlet" method="post">
+        		<h3>Education Details</h3>
+                <div class="form-group">
+                    <label>Highest Qualification</label>
+                    <input type="text" name="qualification">
+                </div>
+                <div class="form-group">
+                    <label>Passout Year</label>
+                    <input type="number" name="passoutYear">
+                </div>
+                <div class="form-group">
+                	<label>Percentage in Highest Qualification</label>
+                	<input type="number" name="percentage">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                 </div>
+                 
+            </form>
+        </div>
+    </div>
+</body>
+</html>

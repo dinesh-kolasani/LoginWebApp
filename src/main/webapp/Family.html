@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Family Details</title>
+	<link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+	<div class="dashboard-container">
+		<div class="sidebar"> 
+			<nav>
+    			<ul>
+        			<li><a href="Dashboard.jsp">Dashboard</a></li>
+					<li><a href="Address.html">Address</a></li>
+					<li><a href="Education.html">Education</a></li>
+					<li><a href="Family.html">Family Details </a></li>
+					<li><a href="Login.html">Logout</a></li>
+    			</ul>
+			</nav>
+		</div>
+		<div class="main-content">
+			<form action="FamilyDetailsServlet" method="post">
+				<h3>Family Details</h3>
+				<div class="form-group">
+					<label>Father's Name</label>
+					<input type="text" name="fatherName">
+				</div>
+				<div class="form-group">
+					<label>Mother's Name</label>
+					<input type="text" name="motherName">
+				</div>
+				<div class="form-group">
+					<label>Number of Siblings</label>
+					<input type="number" name="siblings">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

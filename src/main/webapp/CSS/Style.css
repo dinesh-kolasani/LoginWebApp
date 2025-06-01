@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    will-change: transform;
+  	transform: translateZ(0);
+  	backface-visibility: hidden;
+}
+
+.container:hover {
+  transform: scale(1.02) translateZ(0);
+}
+
+h2 {
+    text-align: center;
+    color: #ec4899;
+}
+h3 {
+	text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+::placeholder {
+	opacity: 0.4;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    display: inline;
+}
+
+.gradientBtn {
+    width: 100%;
+    background: linear-gradient(to right, #a843ff, #ff4fc1);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  	cursor: pointer;
+}
+
+.gradientBtn:hover {
+    background: linear-gradient(to right, #ff4fc1, #a843ff);
+}
+
+.links {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.links a {
+    color: rgb(37, 99, 235);
+    text-decoration: none;
+    margin: 0 0px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+	background: linear-gradient(90deg,rgba(107, 33, 168, 1) 0%, rgba(157, 23, 77, 1) 75%, rgba(153, 27, 27, 1) 100%);
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+} 
+
+.sidebar nav ul li a:hover {
+    
+    background-color: #9333ea;
+} 
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+   	/* background: #fff; */
+}
+
+.static-email {
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+.main-content form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.btn {
+	width: 100%;
+	background-color: #555;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+    
+}
+.btn:hover {
+   	background: #333;
+    transform: scale(1.01);
+}
