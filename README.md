@@ -46,7 +46,7 @@ This is a simple web application developed to manage user registration, authenti
 
 ---
 
-## Default Login Credentials (For Testing)
+## Default Login Credentials
 
 Use the following credentials to log in:
 
